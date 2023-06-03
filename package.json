@@ -1,0 +1,57 @@
+{
+  "name": "rms-vueuppy-cloudinary",
+  "version": "0.2.0",
+  "description": "A VueJs based uploader which upload files to cloudinary using uppy",
+  "author": "Ramesh Bhatta(mail.rmes@gmail.com)",
+  "private": false,
+  "main": "dist/UppyCloudinaryUpload.common.js",
+  "sideEffects": false,
+  "files": [
+    "dist/*",
+    "*.js",
+    "*.json"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve  --mode development",
+    "build": "vue-cli-service build  --target lib --name UppyCloudinaryUpload ./src/components/UppyCloudinaryUpload.vue",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@uppy/core": "^3.2.0",
+    "@uppy/dashboard": "^3.4.0",
+    "core-js": "^3.8.3",
+    "uppy": "^3.9.0",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "strict": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
