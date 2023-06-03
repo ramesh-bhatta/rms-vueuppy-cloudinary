@@ -57,5 +57,26 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/ramesh-bhatta/rms-vueuppy-cloudinary.git"
-  }
+  },
+  "keywords": [
+    "vue",
+    "component",
+    "file upload",
+    "file uploader",
+    "Cloudinary",
+    "Uppy",
+    "file management",
+    "media uploads",
+    "image uploads",
+    "video uploads",
+    "asset uploads",
+    "drag and drop",
+    "progress bar",
+    "resumable uploads",
+    "multipart uploads",
+    "chunked uploads",
+    "direct uploads",
+    "client-side uploads",
+    "Vue.js"
+  ]
 }
