@@ -1,6 +1,6 @@
 {
   "name": "rms-vueuppy-cloudinary",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A VueJs based uploader which upload files to cloudinary using uppy",
   "author": "Ramesh Bhatta(mail.rmes@gmail.com)",
   "private": false,
